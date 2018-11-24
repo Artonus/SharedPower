@@ -41,8 +41,12 @@ class DB:
     def show(self): # Return all data stored in the database
         return self.__dataset
 
-    def add(self, key, object): # Add new entrys to the database
-        self.__dataset[key] = object
+    # check if object already contains a key!
+    def add(self, key, object):  # Add new entrys to the database
+        if key in self.listKeys(key):  # prevent overriding existing key
+            raise Exception("Can't duplicate objects")
+            return
+        self.__dataset[key] = object 
 
     def remove(self, key): # Remove an entry from the database
         del self.__dataset[key]
@@ -63,7 +67,7 @@ class DB:
         self.__dataset[key] = self.__data
 
     def update(self, key, object): # Update the value of an entry
-        self.__dataset[key] = object
+        self.__dataset[key] = object 
     
     def reform(self, key, keys, object): # Update the value of an entries dictinary value
         self.__dataset[key][keys] = object

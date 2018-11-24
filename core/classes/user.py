@@ -2,8 +2,8 @@ from database import DB
 
 class User(DB):
 
-    self.__purchases = []
-    self.__invoices = []
+    __purchases = []
+    __invoices = []
 
     def __init__(self, firstName, lastName, address, phoneNumber, email, username, password):
         self.__firstName = firstName
