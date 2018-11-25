@@ -1,13 +1,3 @@
-#!/usr/bin/env python
-
-###########################################
-## File:     database.py                 ##
-## Author:   Graham 'Blix' Winchester    ##
-## Email:    blixuk@gmail.com            ##
-## Date:     21/11/18                    ##
-###########################################
-
-# Imports
 import os
 import uuid
 import shelve
@@ -42,7 +32,7 @@ class DB:
         return self.__dataset
 
     # check if object already contains a key!
-    def add(self, key, object):  # Add new entrys to the database
+    def add(self, key, object):  # Add new entries to the database
         if key in self.listKeys(key):  # prevent overriding existing key
             raise Exception("Can't duplicate objects")
             return
@@ -69,17 +59,17 @@ class DB:
     def update(self, key, object): # Update the value of an entry
         self.__dataset[key] = object 
     
-    def reform(self, key, keys, object): # Update the value of an entries dictinary value
+    def reform(self, key, keys, object): # Update the value of an entries dictionary value
         self.__dataset[key][keys] = object
 
-    def listAll(self, key): # Return a dictinary of all keys pairs of an entries dictinary
+    def listAll(self, key): # Return a dictionary's of all keys pairs of an entries dictionary
         self.__data = dict(self.__dataset[key])
         return self.__data
 
-    def listKeys(self, key):  # Return a list of all keys in an entries dictinary
+    def listKeys(self, key):  # Return a list of all keys in an entries dictionary
         return list(self.__dataset[key])
 
-    def listValues(self, key): # Return a list of all values in an entries dictinary
+    def listValues(self, key): # Return a list of all values in an entries dictionary
         for keys in self.listkeys(key):
             self.__values.append(self.__dataset[key][keys])
         return self.__values
