@@ -15,7 +15,7 @@ class User(DB):
         self.__password = password
 
     def id(self):
-        return DB.hash("{0} {1}".format(self.first_Name, self.last_Name))
+        return DB.hash(self.__username)
 
     def firstName(self):
         return self.__firstName
