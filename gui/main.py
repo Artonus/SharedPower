@@ -6,12 +6,32 @@ class Application(tk.Frame):
     def __init__(self, master=None):
         super().__init__(master)
         self.master = master
-        self.layout()
+        #self.layout()
+        self.login()
+    
+    def center(self): # Basically edited stackoverflow... XD
+        self.master.withdraw()
+        self.master.update_idletasks()
+        self.x = (self.master.winfo_screenwidth() - self.master.winfo_reqwidth()) / 2
+        self.y = (self.master.winfo_screenheight() - self.master.winfo_reqheight()) / 2
+        self.master.geometry()
+        self.master.deiconify()
+    
+    def login(self): # This is defining the login window on the initial starting page
+        self.master.title("Shared Power")
+        self.master.geometry("300x100")
+        self.master.maxsize(300, 100)
+        self.master.minsize(300, 100)
+
+        self.submitButton = ttk.Button(self.master, text="Login", command=self.layout)
+        self.submitButton.grid(row=0, column=0)
 
     def layout(self):
         self.master.title("Shared Power")
-        #self.master.geometry("1000x500")
+        self.master.geometry("500x500")
         self.master.maxsize(self.master.winfo_screenwidth(), self.master.winfo_screenheight())
+        self.master.minsize(500, 500)
+        self.center()
         
         rows = 0
         while rows < 50:
@@ -41,14 +61,15 @@ class Application(tk.Frame):
 
         self.notebook.grid(row=0, column=0, columnspan=5, rowspan=5, sticky="NESW")
     
+        self.label1 = ttk.Label(tab1, text="This is a test!")
+        self.label1.grid(row=0, column=0)
+    
     def listBlock(self):
         self.listbox = listbox(tab1)
 
         self.listbox.insert(1, "something")
 
         self.listbox.grid(row=1, column=1, columnspan=5, rowspan=5, sticky="NESW")
-
-
 
 # Define Window
 window = tk.Tk() 
