@@ -2,8 +2,11 @@ from database import DB
 
 class Tool(DB):
 
-    def __init__(self, name, price, availability, date):
+    def __init__(self, name, toolType, description, photo, price, availability, date):
         self.__name = name
+        self.__toolType = toolType
+        self.__description = description
+        self.__photo = photo
         self.__price = price
         self.__availability = availability
         self.__date = date
