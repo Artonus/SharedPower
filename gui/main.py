@@ -19,12 +19,28 @@ class Application(tk.Frame):
     
     def login(self): # This is defining the login window on the initial starting page
         self.master.title("Shared Power")
-        self.master.geometry("300x100")
-        self.master.maxsize(300, 100)
-        self.master.minsize(300, 100)
+        self.master.geometry("300x110")
+        self.master.maxsize(300, 110)
+        self.master.minsize(300, 110)
+
+        self.master.rowconfigure(0, weight=1)
+        self.master.columnconfigure(0, weight=1)
+
+        self.username = ""
+        self.usernameTextbox = ttk.Entry(self.master, textvariable=self.username)
+        self.usernameTextbox.grid(row=0, column=0, columnspan=2, pady=(10,10), padx=(10,10), sticky="nsew")
+        self.usernameTextbox.insert(0, "Username")
+
+        self.password = ""
+        self.passwordTextbox = ttk.Entry(self.master, textvariable=self.password, show="*")
+        self.passwordTextbox.grid(row=1, column=0, columnspan=2, pady=(0,10), padx=(10,10), sticky="nsew")
+        self.passwordTextbox.insert(0, "Password")
 
         self.submitButton = ttk.Button(self.master, text="Login", command=self.layout)
-        self.submitButton.grid(row=0, column=0)
+        self.submitButton.grid(row=2, column=0, pady=(0,10), padx=(10,0), ipadx=(30), sticky="w")
+
+        self.registerButton = ttk.Button(self.master, text="Register", command=self.layout)
+        self.registerButton.grid(row=2, column=1, pady=(0,10), padx=(0,10), ipadx=(30), sticky="e")
 
     def layout(self):
         self.master.title("Shared Power")
@@ -51,12 +67,15 @@ class Application(tk.Frame):
         self.notebook = ttk.Notebook(self.master, style='lefttab.TNotebook')
 
         tab1 = ttk.Frame(self.notebook, width=500, height=500)
-        tab2 = ttk.Frame(self.notebook, width=500, height=500)
-        tab3 = ttk.Frame(self.notebook, width=500, height=500)
-        tab4 = ttk.Frame(self.notebook, width=500, height=500)
         self.notebook.add(tab1, text=f'{"Search": ^20s}')
+
+        tab2 = ttk.Frame(self.notebook, width=500, height=500)
         self.notebook.add(tab2, text=f'{"Add New": ^18s}')
+
+        tab3 = ttk.Frame(self.notebook, width=500, height=500)
         self.notebook.add(tab3, text=f'{"Invoice": ^21s}')
+
+        tab4 = ttk.Frame(self.notebook, width=500, height=500)
         self.notebook.add(tab4, text=f'{"Profile": ^22s}')
 
         self.notebook.grid(row=0, column=0, columnspan=5, rowspan=5, sticky="NESW")
@@ -66,9 +85,7 @@ class Application(tk.Frame):
     
     def listBlock(self):
         self.listbox = listbox(tab1)
-
         self.listbox.insert(1, "something")
-
         self.listbox.grid(row=1, column=1, columnspan=5, rowspan=5, sticky="NESW")
 
 # Define Window
