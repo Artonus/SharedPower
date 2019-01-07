@@ -1,4 +1,3 @@
-#!/usr/bin/ python
 
 import os
 import sys
@@ -6,9 +5,9 @@ import time
 import datetime
 from http.server import HTTPServer, CGIHTTPRequestHandler
 
-port = 8080
-address = ('', port)
-working = '.' #os.getcwd()
+port = 8888
+address = ("", port)
+working = os.getcwd()
 
 def logging():
     curdatetime = datetime.datetime.now().strftime('%y-%m-%d-%H-%M')

@@ -1,55 +1,5 @@
-
-
 body {
-	background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-.container-fluid {
-	padding: 0px;
-	width: 100%;
-}
-
-.row {
-	margin: 0px;
-}
-
-.col-sm-2 {
-	padding: 0px;
-}
-
-.navbar {
-	width: 100%;
-}
-
-.sidebar-container {
-	height: 100%;
-}
-
-.profile-picture-circle {
-	border-radius: 50%;
-	border: 1em;
-    border-width: 0.2em;
-	border-style: solid;
-	border-color: black;
-}
-
-.profile-name {
-	color: white;
-}
-
-.list-group-item {
-	color: black;
-	background-color: #6ED146;
-    border: 1em;
-    border-width: 0.2em;
-	border-style: solid;
-	border-color: black;
-}
-
-.footer {
-	margin: 0px;
-	padding: 0.2em;
-	color: white;
-	position: fixed;
-	width: 100%
-}
