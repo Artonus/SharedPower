@@ -34,7 +34,7 @@ class DB:
     # check if object already contains a key!
     def add(self, key, object):  # Add new entries to the database
         if self.listKeys(key) != None:  # prevent overriding existing key
-            raise Exception("Can't duplicate objects")
+            return False
         self.__dataset[key] = object 
 
     def remove(self, key): # Remove an entry from the database

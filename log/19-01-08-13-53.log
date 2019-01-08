@@ -1,0 +1,51 @@
+127.0.0.1 - - [08/Jan/2019 13:53:11] "GET /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2019 13:53:11] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\sharedpower\cgi-bin\home.py" ""
+127.0.0.1 - - [08/Jan/2019 13:53:11] CGI script exited OK
+127.0.0.1 - - [08/Jan/2019 13:53:33] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:53:33] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:53:33] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:53:33] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:53:33] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:53:33] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:53:34] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:53:34] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:53:34] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:53:34] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:53:42] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2019 13:53:42] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\sharedpower\cgi-bin\home.py" ""
+127.0.0.1 - - [08/Jan/2019 13:53:42] b'Traceback (most recent call last):\r\n  File "C:\\Users\\barte\\OneDrive\\Pulpit\\Shared power\\new\\sharedpower\\cgi-bin\\home.py", line 27, in <module>\r\n    db.add(currUser.username(), currUser.__dict__)\r\n  File "C:\\Users\\barte\\OneDrive\\Pulpit\\Shared power\\new\\sharedpower\\cgi-bin\\core\\database.py", line 37, in add\r\n    raise Exception("Can\'t duplicate objects")\r\nException: Can\'t duplicate objects\r\n'
+127.0.0.1 - - [08/Jan/2019 13:53:42] CGI script exit status 0x1
+127.0.0.1 - - [08/Jan/2019 13:56:15] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2019 13:56:15] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\sharedpower\cgi-bin\home.py" ""
+127.0.0.1 - - [08/Jan/2019 13:56:16] CGI script exited OK
+127.0.0.1 - - [08/Jan/2019 13:56:16] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:56:16] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:56:16] code 404, message No such CGI script ('/cgi-bin/vendor')
+127.0.0.1 - - [08/Jan/2019 13:56:16] "GET /cgi-bin/vendor/jquery/jquery.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:56:16] code 404, message No such CGI script ('/cgi-bin/vendor')
+127.0.0.1 - - [08/Jan/2019 13:56:16] "GET /cgi-bin/vendor/jquery/jquery.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:56:16] code 404, message No such CGI script ('/cgi-bin/vendor')
+127.0.0.1 - - [08/Jan/2019 13:56:16] "GET /cgi-bin/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:56:16] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:56:16] "GET /gui/img/%7BtoolPic%7D HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:56:16] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:56:16] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:56:16] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:56:16] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:56:16] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:56:16] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:56:16] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:56:16] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:56:16] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:56:16] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:57:12] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2019 13:57:12] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\sharedpower\cgi-bin\home.py" ""
+127.0.0.1 - - [08/Jan/2019 13:57:13] CGI script exited OK
+127.0.0.1 - - [08/Jan/2019 13:57:13] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:57:13] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:57:13] code 404, message No such CGI script ('/cgi-bin/vendor')
+127.0.0.1 - - [08/Jan/2019 13:57:13] "GET /cgi-bin/vendor/jquery/jquery.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:57:13] code 404, message No such CGI script ('/cgi-bin/vendor')
+127.0.0.1 - - [08/Jan/2019 13:57:13] "GET /cgi-bin/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:57:13] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:57:13] "GET /gui/img/%7BtoolPic%7D HTTP/1.1" 404 -
