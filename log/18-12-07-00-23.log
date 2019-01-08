@@ -1,8 +1,0 @@
-127.0.0.1 - - [07/Dec/2018 00:23:11] "POST /cgi-bin/test.py HTTP/1.1" 200 -
-127.0.0.1 - - [07/Dec/2018 00:23:11] command: C:\Users\blix\AppData\Local\Programs\Python\Python37-32\python.exe -u C:\Users\blix\Documents\sharedpower\cgi-bin\test.py ""
-127.0.0.1 - - [07/Dec/2018 00:23:11] b"C:\\Users\\blix\\Documents\\sharedpower\\cgi-bin\\test.py:14: DeprecationWarning: cgi.escape is deprecated, use html.escape instead\r\n  print('<h1>{}</h1>'.format(cgi.escape(form['user'].value)))\r\n"
-127.0.0.1 - - [07/Dec/2018 00:23:11] CGI script exited OK
-127.0.0.1 - - [07/Dec/2018 00:23:13] "POST /cgi-bin/test.py HTTP/1.1" 200 -
-127.0.0.1 - - [07/Dec/2018 00:23:13] command: C:\Users\blix\AppData\Local\Programs\Python\Python37-32\python.exe -u C:\Users\blix\Documents\sharedpower\cgi-bin\test.py ""
-127.0.0.1 - - [07/Dec/2018 00:23:13] b"C:\\Users\\blix\\Documents\\sharedpower\\cgi-bin\\test.py:14: DeprecationWarning: cgi.escape is deprecated, use html.escape instead\r\n  print('<h1>{}</h1>'.format(cgi.escape(form['user'].value)))\r\n"
-127.0.0.1 - - [07/Dec/2018 00:23:13] CGI script exited OK
