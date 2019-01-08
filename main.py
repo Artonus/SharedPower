@@ -18,7 +18,7 @@ def logging():
 def main():
     os.chdir(working)
     server = HTTPServer(address, CGIHTTPRequestHandler)
-    #logging()
+    logging()
     server.serve_forever()
 
 if __name__ == "__main__":
