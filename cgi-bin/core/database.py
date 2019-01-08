@@ -7,13 +7,13 @@ from hashlib import blake2b, blake2s
 class DB:
     
     def __init__(self, name): # Set the database file and the data holders 
-        self.__dataset = shelve.open('{0}/db/{1}.db'.format(os.getcwd(), name))
+        self.__dataset = shelve.open('{0}/cgi-bin/db/{1}.db'.format(os.getcwd(), name))
         self.__data = {}
         self.__keys = []
         self.__values = []
 
     def load(self, name): # Load any database files into the data holder
-        self.__dataset = shelve.open('{0}/db/{1}.db'.format(os.getcwd(), name))
+        self.__dataset = shelve.open('{0}/cgi-bin/db/{1}.db'.format(os.getcwd(), name))
 
     def save(self): # Save the database file and clear the cache
         self.__dataset.sync()
@@ -33,9 +33,8 @@ class DB:
 
     # check if object already contains a key!
     def add(self, key, object):  # Add new entries to the database
-        if key in self.listKeys(key):  # prevent overriding existing key
+        if self.listKeys(key) != None:  # prevent overriding existing key
             raise Exception("Can't duplicate objects")
-            return
         self.__dataset[key] = object 
 
     def remove(self, key): # Remove an entry from the database
@@ -66,10 +65,14 @@ class DB:
         self.__data = dict(self.__dataset[key])
         return self.__data
 
-    def listKeys(self, key):  # Return a list of all keys in an entries dictionary
-        return list(self.__dataset[key])
+    def listKeys(self, key): # Return a list of all keys in an entries dictionary
+        try:
+            if key in self.__dataset:
+                return dict(self.__dataset[key])
+        except Exception as ex:        
+            print("No such key in dataset", ex)
 
     def listValues(self, key): # Return a list of all values in an entries dictionary
-        for keys in self.listkeys(key):
+        for keys in self.listKeys(key):
             self.__values.append(self.__dataset[key][keys])
         return self.__values

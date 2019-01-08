@@ -1,11 +1,11 @@
-from database import DB
+from core.database import DB
 
 class User(DB):
 
     __purchases = []
     __invoices = []
 
-    def __init__(self, firstName, lastName, address, phoneNumber, email, username, password):
+    def __init__(self, username, password, firstName=None, lastName=None, address=None, phoneNumber=None, email=None):
         self.__firstName = firstName
         self.__lastName = lastName
         self.__address = address
@@ -15,7 +15,7 @@ class User(DB):
         self.__password = password
 
     def id(self):
-        return DB.hash(self.__username)
+        return self.hash(self.__username)
 
     def firstName(self):
         return self.__firstName

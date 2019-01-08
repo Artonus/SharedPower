@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/gui/js/bootstrap.js"></script>
+    <script src="/gui/js/bootstrap.bundle.js"></script>
+    <script src="/gui/js/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="/gui/css/bootstrap.css">
+    <link rel="stylesheet" href="/gui/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="/gui/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="/gui/css/signin.css">
+    <title>Shared Power</title>
+</head>
+<body class="text-center">
+    <form class="form-signin" method="POST" action="cgi-bin/home.py">
+        <img class="mb-4" src="/gui/img/logo.svg" alt="" width="150" height="150">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+
+        <label for="inputUsername" class="sr-only">Username</label>
+        <input type="username" name="inputUserName" id="inputUsername" class="form-control" placeholder="Username" required="" autofocus="">
+
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required="">
+
+        <button class="btn btn-lg btn-block" type="submit">Sign in</button>
+        <p class="mt-5 mb-3 text-muted">&copy; Shared Power 2018</p>
+    </form>
+</body>
