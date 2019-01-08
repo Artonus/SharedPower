@@ -16,7 +16,7 @@ form = cgi.FieldStorage()
 if "inputUsername" in form and "inputPassword" in form:    
     db = DB("users")    
     users = db.show()
-    # print(users)
+    #print(users)
     hashedPass = db.hash(form["inputPassword"].value)
     for i in users: #todo: how to get uuid of a user with , fuck uuid!!!!        
         if i[1] == form['inputUsername'] and i[1]["password"] == hashedPass:
@@ -24,7 +24,9 @@ if "inputUsername" in form and "inputPassword" in form:
             pass
     if currUser == None:
         currUser = User(form["inputUsername"].value, hashedPass)
-        db.add(currUser.username(), currUser.__dict__)
+        result = db.add(currUser.username(), currUser.__dict__)
+        if result == False:
+            print("Can't create an account")
         db.save()
         pass
     print('Content-type: text/html')
@@ -33,7 +35,9 @@ if "inputUsername" in form and "inputPassword" in form:
     print(t.getTemplate('head').format(userName=currUser.username()))
     print(t.getTemplate('nav'))
     print(t.getTemplate('sidebar'))
+
     print(t.getTemplate('toolStart'))
+    dbTools = DB("tools")
     print(t.getTemplate('tool'))
     print(t.getTemplate('toolEnd'))
     print(t.getTemplate('foot'))

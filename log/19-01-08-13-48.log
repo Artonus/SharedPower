@@ -1,0 +1,22 @@
+127.0.0.1 - - [08/Jan/2019 13:49:02] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2019 13:49:02] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\sharedpower\cgi-bin\home.py" ""
+127.0.0.1 - - [08/Jan/2019 13:49:02] b'Traceback (most recent call last):\r\n  File "C:\\Users\\barte\\OneDrive\\Pulpit\\Shared power\\new\\sharedpower\\cgi-bin\\home.py", line 27, in <module>\r\n    db.add(currUser.username(), currUser.__dict__)\r\n  File "C:\\Users\\barte\\OneDrive\\Pulpit\\Shared power\\new\\sharedpower\\cgi-bin\\core\\database.py", line 37, in add\r\n    raise Exception("Can\'t duplicate objects")\r\nException: Can\'t duplicate objects\r\n'
+127.0.0.1 - - [08/Jan/2019 13:49:02] CGI script exit status 0x1
+127.0.0.1 - - [08/Jan/2019 13:51:08] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2019 13:51:08] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\sharedpower\cgi-bin\home.py" ""
+127.0.0.1 - - [08/Jan/2019 13:51:08] b'Traceback (most recent call last):\r\n  File "C:\\Users\\barte\\OneDrive\\Pulpit\\Shared power\\new\\sharedpower\\cgi-bin\\home.py", line 27, in <module>\r\n    db.add(currUser.username(), currUser.__dict__)\r\n  File "C:\\Users\\barte\\OneDrive\\Pulpit\\Shared power\\new\\sharedpower\\cgi-bin\\core\\database.py", line 37, in add\r\n    raise Exception("Can\'t duplicate objects")\r\nException: Can\'t duplicate objects\r\n'
+127.0.0.1 - - [08/Jan/2019 13:51:08] CGI script exit status 0x1
+127.0.0.1 - - [08/Jan/2019 13:51:11] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:51:11] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:51:11] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:51:11] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:51:11] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:51:11] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:51:11] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:51:11] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:51:11] code 404, message File not found
+127.0.0.1 - - [08/Jan/2019 13:51:11] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [08/Jan/2019 13:51:14] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jan/2019 13:51:14] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\sharedpower\cgi-bin\home.py" ""
+127.0.0.1 - - [08/Jan/2019 13:51:14] b'Traceback (most recent call last):\r\n  File "C:\\Users\\barte\\OneDrive\\Pulpit\\Shared power\\new\\sharedpower\\cgi-bin\\home.py", line 27, in <module>\r\n    db.add(currUser.username(), currUser.__dict__)\r\n  File "C:\\Users\\barte\\OneDrive\\Pulpit\\Shared power\\new\\sharedpower\\cgi-bin\\core\\database.py", line 37, in add\r\n    raise Exception("Can\'t duplicate objects")\r\nException: Can\'t duplicate objects\r\n'
+127.0.0.1 - - [08/Jan/2019 13:51:14] CGI script exit status 0x1
