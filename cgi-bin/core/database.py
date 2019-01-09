@@ -1,10 +1,12 @@
 import hashlib
+import json
 import os
 import shelve
 import sqlite3
 import uuid
 from hashlib import blake2b, blake2s
 from sqlite3 import Error
+
 
 class DB:
     currUser = None
@@ -19,16 +21,33 @@ class DB:
         return None
 
     @staticmethod
-    def setUser(object):
-        currUser = object
+    def setCurrUser(user): # pass whole user 
+        fileread = open(os.getcwd() + "/cgi-bin/core/appsettings.json", 'r')
+        tmp = fileread.read()
+        jsn = json.loads(tmp)
+        fileread.close()
+        filewrite = open(os.getcwd() + "/cgi-bin/core/appsettings.json", 'w')
+        jsn["currUser"] = user[1]
+        filewrite.write(json.dumps(jsn))
+        filewrite.close()
+        pass 
+    @staticmethod
+    def getCurrUser():
+        file = open(os.getcwd() + "/cgi-bin/core/appsettings.json", 'r')
+        tmp = file.read()
+        jsn = json.loads(tmp)
+        file.close()
+        return jsn["currUser"]
 
     @staticmethod
-    def hash( value, key="eb6ec15daf9546254f0809"): # Return a Hashed value of a value
+    def hash(value, key="eb6ec15daf9546254f0809"): # Return a Hashed value of a value
         _key = hashlib.sha224(key.encode("utf-8")).hexdigest()
         _hash = blake2b(key=_key.encode("utf-8"), digest_size=32)
         _hash.update(value.encode("utf-8"))
-        return str(_hash.hexdigest())
-
+        return str(_hash.hexdigest())   
+    
+    
+    
     def __init__(self, name): # Set the database file and the data holders 
         self.__dataset = shelve.open('{0}/cgi-bin/db/{1}.db'.format(os.getcwd(), name))
         self.__data = {}
@@ -43,9 +62,7 @@ class DB:
         self.__dataset.close()
 
     def uuid(self): # Return a UUID
-        return uuid.uuid4().hex
-
-    
+        return uuid.uuid4().hex    
 
     def show(self): # Return all data stored in the database
         return self.__dataset

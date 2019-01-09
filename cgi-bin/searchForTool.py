@@ -9,7 +9,6 @@ from sqlite3 import Error
 #sys.path.append('../')
 from classes.template import Template
 from core.database import DB
-from core.user import User
 
 cgitb.enable()
 # import classes.template.Template
@@ -20,11 +19,12 @@ def main():
     t = Template()
     form = cgi.FieldStorage()        
     conn = DB.create_connection()
+    currUser = DB.getCurrUser()
     if conn != None:
         print('Content-type: text/html')
         print('')
 
-        print(t.getTemplate('head'))#.format(userName=DB.currUser[1]))
+        print(t.getTemplate('head').format(userName=currUser))
         print(t.getTemplate('sidebar'))
         print(t.getTemplate('toolStart'))
         if conn is not None:            

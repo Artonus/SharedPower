@@ -22,7 +22,7 @@ def logging():
 def main():
     os.chdir(working)
     server = HTTPServer(address, CGIHTTPRequestHandler)
-    logging()
+    #logging()
     createDatabase()
     server.serve_forever()
 

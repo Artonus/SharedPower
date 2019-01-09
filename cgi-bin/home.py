@@ -9,7 +9,6 @@ from sqlite3 import Error
 #sys.path.append('../')
 from classes.template import Template
 from core.database import DB
-from core.user import User
 
 cgitb.enable()
 # import classes.template.Template
@@ -49,7 +48,7 @@ def main():
             # except Error as e:
             #     print(e)
                 pass
-        #DB.currUser = currUser
+        DB.setCurrUser(currUser)
         if conn != None:
             print('Content-type: text/html')
             print('')
@@ -60,11 +59,7 @@ def main():
             print(t.getTemplate('toolStart'))
             if conn is not None:
                 c = conn.cursor()
-                if "search" in form:
-                    c.execute("select * from tools where avilabile=1 and toolname like '%?%'", (form["search"].value))
-                    pass
-                else:
-                    c.execute("select * from tools where avilabile=1")                
+                c.execute("select * from tools where avilabile=1")
                 result = c.fetchall()
                 for tool in result:
                     print(t.getTemplate('tool').format(toolName=tool[1], toolDesc=tool[2], toolPic=tool[3]))

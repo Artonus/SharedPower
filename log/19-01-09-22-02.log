@@ -1,0 +1,179 @@
+127.0.0.1 - - [09/Jan/2019 22:02:19] "POST /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:02:19] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 22:02:19] CGI script exit status 0x1
+127.0.0.1 - - [09/Jan/2019 22:02:23] "GET /gui/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:02:23] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:02:23] "GET /gui/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:02:23] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:02:23] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:02:23] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:02:23] "GET /gui/img/logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:02:26] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:26] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:27] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:27] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:27] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:27] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:27] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:27] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:27] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:27] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:29] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:02:29] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 22:02:29] CGI script exit status 0x1
+127.0.0.1 - - [09/Jan/2019 22:02:46] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:02:46] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 22:02:47] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 22:02:47] "GET /gui/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:02:47] "GET /gui/css/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:02:47] "GET /gui/js/dashboard.js HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:02:47] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:47] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:47] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:47] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:47] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:47] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:47] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:47] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:47] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:47] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:50] "POST /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:02:50] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 22:02:50] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 22:02:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:50] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:50] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:51] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:51] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:51] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:51] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:02:51] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:02:51] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:07:24] "POST /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:07:24] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 22:07:25] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 22:07:25] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:07:25] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:07:25] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:07:25] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:07:25] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:07:25] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:07:25] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:07:25] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:07:25] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:07:25] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:07:30] "POST /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:07:30] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 22:07:30] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 22:07:30] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:07:30] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:07:30] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:07:30] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:07:31] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:07:31] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:07:31] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:07:31] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:07:31] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:07:31] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:04] "POST /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:09:04] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 22:09:04] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 22:09:04] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:09:04] "GET /gui/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/css/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/js/dashboard.js HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/img/logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:05] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:05] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:06] "POST /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:09:06] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 22:09:06] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 22:09:06] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:06] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:07] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:07] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:07] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:07] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:07] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:07] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:07] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:07] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:16] "POST /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:09:16] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 22:09:16] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 22:09:17] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:17] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:17] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:17] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:17] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:17] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:17] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:17] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:17] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:17] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:29] "POST /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:09:29] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 22:09:29] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 22:09:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:29] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:29] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:30] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:30] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:30] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:30] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:30] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:30] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:54] "POST /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:09:54] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 22:09:54] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 22:09:54] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:54] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:54] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:54] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:54] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:54] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:54] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:54] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:09:54] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:09:54] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:10:06] "POST /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:10:06] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 22:10:07] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 22:10:07] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:10:07] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:10:07] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:10:07] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:10:07] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:10:07] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:10:07] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:10:07] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:10:07] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:10:07] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:10:13] "POST /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 22:10:13] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 22:10:13] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 22:10:13] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:10:13] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:10:14] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:10:14] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:10:14] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:10:14] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:10:14] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:10:14] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 22:10:14] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 22:10:14] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
