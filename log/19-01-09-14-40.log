@@ -1,0 +1,3 @@
+127.0.0.1 - - [09/Jan/2019 14:40:53] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 14:40:53] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 14:40:53] CGI script exit status 0x1

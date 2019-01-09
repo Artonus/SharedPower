@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="/gui/js/jquery-3.3.1.js"></script>
+  <script src="/gui/js/bootstrap.js"></script>
+  <script src="/gui/js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/gui/css/bootstrap.css">
+  <link rel="stylesheet" href="/gui/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="/gui/css/bootstrap-reboot.css">
+  <link rel="stylesheet" href="/gui/css/style.css">
+
+  <link rel="stylesheet" href="/gui/css/dashboard.css">
+  <script src="/gui/js/dashboard.js"></script>
+  <title>Shared Power</title>
+</head>
+
+<!-- <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow"> -->
+  <form class="form-inline navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow" method="POST" action="/cgi-bin/searchForTool.py">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Shared Power hello {userName}</a>
+    <input class="form-control form-control-dark w-100" name="search" id="search" type="text" placeholder="Search for tool"
+      aria-label="Search">
+    <ul class="navbar-nav px-3">
+      <li class="nav-item text-nowrap">
+        <button class="btn btn-secondary" type="submit">Search</button>
+      </li>
+    </ul>
+  </form>
+<!-- </nav> -->
+
+<div class="container-fluid">

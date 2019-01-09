@@ -1,0 +1,335 @@
+127.0.0.1 - - [09/Jan/2019 18:12:29] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:12:29] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:29] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:29] "GET /gui/js/dashboard.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:30] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:30] "GET /gui/img/logo.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:48] "GET /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:12:48] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:12:48] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:12:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:12:48] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:48] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:48] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:48] "GET /gui/css/signin.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:48] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:48] "GET /gui/img/logo.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:48] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:48] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:49] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:49] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:49] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:49] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:49] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:49] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:49] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:49] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:49] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:49] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:49] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:49] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:49] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:49] "GET /gui/css/signin.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:49] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:49] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:52] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:52] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:52] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:52] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:52] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:52] "GET /gui/css/signin.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:52] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:52] "GET /gui/img/logo.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:52] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:52] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:52] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:52] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:52] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:52] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:52] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:52] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:12:55] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:55] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:55] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:55] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:55] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:55] "GET /gui/css/signin.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:12:55] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:12:55] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:20] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:14:20] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:14:20] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:14:20] "GET /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:14:20] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:14:21] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/js/dashboard.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/img/logo.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:21] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:21] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:30] "GET /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:14:30] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:14:30] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:14:38] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:14:38] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:14:38] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:14:38] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:38] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:38] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:38] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:38] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:38] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:38] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:38] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:38] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:38] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:38] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:38] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:38] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:38] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:39] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:39] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:39] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:39] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:39] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:39] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:39] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:39] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:39] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:39] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:39] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:39] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:39] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:39] "GET /gui/js/dashboard.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:14:39] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:14:39] "GET /gui/img/logo.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:31] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:15:31] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:15:31] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:15:31] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:31] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:31] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:31] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/js/dashboard.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:15:32] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:15:32] "GET /gui/img/logo.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:16:23] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:16:23] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:16:23] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:16:23] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:16:23] "GET /gui/css/bootstrap.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/css/dashboard.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/js/bootstrap.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/js/dashboard.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/img/logo.svg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:16:24] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:16:24] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 64410)
+Traceback (most recent call last):
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 646, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 720, in __init__
+    self.handle()
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 426, in handle
+    self.handle_one_request()
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 394, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Istniej鉍e po章czenie zosta這 gwa速ownie zamkni皻e przez zdalnego hosta
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 64411)
+Traceback (most recent call last):
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 646, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 720, in __init__
+    self.handle()
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 426, in handle
+    self.handle_one_request()
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 394, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Istniej鉍e po章czenie zosta這 gwa速ownie zamkni皻e przez zdalnego hosta
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 64412)
+Traceback (most recent call last):
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 646, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 720, in __init__
+    self.handle()
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 426, in handle
+    self.handle_one_request()
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 394, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Istniej鉍e po章czenie zosta這 gwa速ownie zamkni皻e przez zdalnego hosta
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 64413)
+Traceback (most recent call last):
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 646, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 720, in __init__
+    self.handle()
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 426, in handle
+    self.handle_one_request()
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 394, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Istniej鉍e po章czenie zosta這 gwa速ownie zamkni皻e przez zdalnego hosta
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 64414)
+Traceback (most recent call last):
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 646, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socketserver.py", line 720, in __init__
+    self.handle()
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 426, in handle
+    self.handle_one_request()
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\http\server.py", line 394, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Users\barte\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Istniej鉍e po章czenie zosta這 gwa速ownie zamkni皻e przez zdalnego hosta
+----------------------------------------
+127.0.0.1 - - [09/Jan/2019 18:18:16] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:18:16] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:18:16] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:18:16] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:18:16] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:18:16] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:18:16] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:18:16] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:18:16] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:18:16] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:18:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 18:18:49] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:18:49] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:18:49] CGI script exited OK

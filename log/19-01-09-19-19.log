@@ -1,0 +1,26 @@
+127.0.0.1 - - [09/Jan/2019 19:19:45] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 19:19:45] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 19:19:45] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 19:19:45] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 19:19:45] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 19:19:45] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 19:19:45] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 19:19:45] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 19:19:46] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 19:19:46] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 19:19:50] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 19:19:50] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 19:19:50] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 19:19:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 19:19:50] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 19:19:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 19:19:50] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 19:19:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 19:19:50] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 19:19:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 19:19:50] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 19:19:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 19:19:50] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 19:19:55] "GET /cgi-bin/searchForTool.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 19:19:55] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\searchForTool.py" ""
+127.0.0.1 - - [09/Jan/2019 19:19:55] CGI script exit status 0x1
