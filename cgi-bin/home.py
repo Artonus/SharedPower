@@ -15,23 +15,13 @@ cgitb.enable()
 # import classes.template.Template
 # import core.user.User
 
-
-def create_connection():    
-    db_file = '{0}\db\{1}.db'.format(os.getcwd(), "sharedpower")
-    try:
-        conn = sqlite3.connect(db_file)
-        return conn
-    except Error as e:
-        print(e)
- 
-    return None
 def main():
     currUser = None
     t = Template()
     form = cgi.FieldStorage()
         
     if "inputUsername" in form and "inputPassword" in form:            
-        conn = create_connection()
+        conn = DB.create_connection()
         hashedPass = DB.hash(form["inputPassword"].value)
         if conn != None:
             try:
@@ -59,17 +49,22 @@ def main():
             # except Error as e:
             #     print(e)
                 pass
+        #DB.currUser = currUser
         if conn != None:
             print('Content-type: text/html')
             print('')
 
             print(t.getTemplate('head').format(userName=currUser[1]))
-            print(t.getTemplate('nav'))
+            #print(t.getTemplate('nav'))
             print(t.getTemplate('sidebar'))
             print(t.getTemplate('toolStart'))
             if conn is not None:
                 c = conn.cursor()
-                c.execute("select * from tools where avilabile=1")
+                if "search" in form:
+                    c.execute("select * from tools where avilabile=1 and toolname like '%?%'", (form["search"].value))
+                    pass
+                else:
+                    c.execute("select * from tools where avilabile=1")                
                 result = c.fetchall()
                 for tool in result:
                     print(t.getTemplate('tool').format(toolName=tool[1], toolDesc=tool[2], toolPic=tool[3]))

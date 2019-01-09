@@ -1,11 +1,22 @@
-import os
-import uuid
-import shelve
 import hashlib
+import os
+import shelve
+import sqlite3
+import uuid
 from hashlib import blake2b, blake2s
+from sqlite3 import Error
 
 class DB:
     currUser = None
+    @staticmethod
+    def create_connection():    
+        db_file = '{0}\db\{1}.db'.format(os.getcwd(), "sharedpower")
+        try:
+            conn = sqlite3.connect(db_file)
+            return conn
+        except Error as e:
+            print(e)    
+        return None
 
     @staticmethod
     def setUser(object):

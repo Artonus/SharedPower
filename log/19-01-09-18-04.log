@@ -1,0 +1,147 @@
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/img/logo.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:03] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:03] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:11] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:05:11] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:05:11] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:05:11] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:11] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:11] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:11] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/js/dashboard.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/js/dashboard.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:05:12] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:05:12] "GET /gui/img/logo.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:50] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:06:50] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:06:50] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:06:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:50] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:50] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:50] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:50] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:50] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:50] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:50] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:50] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:50] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:50] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:50] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:51] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:51] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:51] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:51] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:51] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:51] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:51] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:51] "GET /gui/js/dashboard.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:06:51] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:06:51] "GET /gui/img/logo.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:10:08] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:08] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:08] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:08] "GET /gui/css/signin.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:08] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:08] "GET /gui/img/logo.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:08] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:08] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:08] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:08] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:08] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:08] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:08] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:08] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:08] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:08] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:19] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:10:19] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:10:19] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:10:19] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:19] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:19] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:19] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:19] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:19] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:19] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:19] "GET /gui/js/bootstrap.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:19] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:19] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:19] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:19] "GET /gui/img/logo.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:19] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:19] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:19] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:19] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:19] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:19] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:19] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:19] "GET /gui/js/dashboard.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:34] "GET /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:10:34] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [09/Jan/2019 18:10:34] CGI script exited OK
+127.0.0.1 - - [09/Jan/2019 18:10:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jan/2019 18:10:34] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:34] "GET /gui/css/bootstrap.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:34] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:34] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:34] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:34] "GET /gui/css/style.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:34] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:34] "GET /gui/css/dashboard.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jan/2019 18:10:34] code 404, message File not found
+127.0.0.1 - - [09/Jan/2019 18:10:34] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 404 -
