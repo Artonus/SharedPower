@@ -22,4 +22,14 @@ class dbScripts():
  avilabile integer not null,
  dateavilabile text
 );"""
-    pass
+    
+    @staticmethod
+    def invoicesTableSql():
+        return """CREATE TABLE IF NOT EXISTS invoices (
+ id integer PRIMARY KEY,
+ userid integer NOT NULL,
+ toolid integer not null,
+ toolname text not null,
+ price integer not null,
+ dateofrent text
+);"""

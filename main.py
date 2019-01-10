@@ -34,6 +34,7 @@ def createDatabase():
             c = conn.cursor()        
             c.execute(Scripts.dbScripts.usersTableSql())
             c.execute(Scripts.dbScripts.toolsTableSql())
+            c.execute(Scripts.dbScripts.invoicesTableSql())
             # c.execute("SELECT name FROM sqlite_master WHERE type='table';")
             # print(c.fetchall())
             pass
