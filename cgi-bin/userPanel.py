@@ -38,7 +38,7 @@ def main():
         c.execute("select * from tools where owner=?", (currUser,))                
         result = c.fetchall()
         for tool in result:
-            print(t.getTemplate('tool').format(toolName=tool[1], toolDesc=tool[2], toolPic=tool[3]))
+            print(t.getTemplate('tool2').format(toolName=tool[1], toolDesc=tool[2], toolPic=tool[3], price=tool[5]))
             #print(tool)
         
         print(t.getTemplate('toolEnd'))

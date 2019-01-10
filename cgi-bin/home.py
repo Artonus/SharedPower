@@ -62,7 +62,7 @@ def main():
                 c.execute("select * from tools where avilabile=1")
                 result = c.fetchall()
                 for tool in result:
-                    print(t.getTemplate('tool').format(toolName=tool[1], toolDesc=tool[2], toolPic=tool[3]))
+                    print(t.getTemplate('tool').format(toolName=tool[1], toolDesc=tool[2], toolPic=tool[3], price=tool[5]))
                     #print(tool)
                 pass    
             print(t.getTemplate('toolEnd'))
