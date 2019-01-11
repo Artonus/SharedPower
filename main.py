@@ -1,4 +1,3 @@
-
 import os
 import sys
 import time
@@ -35,6 +34,8 @@ def createDatabase():
             c.execute(Scripts.dbScripts.usersTableSql())
             c.execute(Scripts.dbScripts.toolsTableSql())
             c.execute(Scripts.dbScripts.invoicesTableSql())
+            c.execute(Scripts.dbScripts.booked_toolsTableSql())
+            conn.commit()
             # c.execute("SELECT name FROM sqlite_master WHERE type='table';")
             # print(c.fetchall())
             pass

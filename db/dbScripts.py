@@ -1,4 +1,5 @@
-class dbScripts():        
+class dbScripts():    
+    selectToolById = "select * from tools where id=?"
     @staticmethod
     def usersTableSql():
         return """CREATE TABLE IF NOT EXISTS users (
@@ -32,4 +33,13 @@ class dbScripts():
  toolname text not null,
  price integer not null,
  dateofrent text
+);"""
+    @staticmethod
+    def booked_toolsTableSql():
+        return """CREATE TABLE IF NOT EXISTS booked_tools(
+ id integer PRIMARY KEY,
+ userid integer NOT NULL,
+ toolid integer not null,
+ startdate text not null,
+ enddate text not null
 );"""

@@ -5,17 +5,19 @@
         </div>
         <div class="col">
             <div class="card-block px-3 py-3 w-auto" style="max-height:250px;">
-                <h4 class="card-title">{toolName}</h4>
-                <p class="card-text">{toolDesc}
-                </p>
-                <div class="text-right align-bottom">
-                    <h3>£{price}</h3>    
-                </div>
-
-                <div class="text-right align-bottom">
-                    <a href="#" class="btn btn-primary">DELETE</a>
-                </div>
-
+                <form action="/cgi-bin/userPanel.py" method="POST">
+                    <h4 class="card-title">{toolName}</h4>
+                    <p class="card-text">{toolDesc}
+                    </p>
+                    <div class="text-right align-bottom">
+                        <input type="text" name="toolid" value="{id}" class="invisible">
+                        <h3>&#163;{price}</h3>    
+                    </div>
+    
+                    <div class="text-right align-bottom">
+                        <button class="btn btn-primary">DELETE</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

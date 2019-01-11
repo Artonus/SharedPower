@@ -1,20 +1,23 @@
-    </div> 
-<!-- </div>  -->
-    <!-- /#wrapper -->
+</div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+<script>    
     $("#print").click(function (e) {
-        alert("Module not implemented!")
+        alert("Module not implemented!");
     })
-    </script>
+
+    function disableF5(e) { if ((e.which || e.keyCode) == 116) e.preventDefault(); };    
+    $(document).bind("keydown", disableF5);    
+    $(document).on("keydown", disableF5);
+    
+    $("#inputSelect").change(function(){
+            var defPrice = $("#inputPrice").val();
+            var multip = parseFloat($("#inputSelect").val());            
+            $("#finalPrice").html("&#163;" + (defPrice *  multip));
+    });
+</script>
 </body>
+
 </html>

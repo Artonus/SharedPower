@@ -1,0 +1,47 @@
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+    <div class="pt-3 pb-2 mb-3 border-bottom justify-content-between flex-wrap align-items-center flex-md-nowrap">
+        <form class="" method="POST" action="/cgi-bin/searchForTool.py">
+            <h3>Tool booking</h3>
+            <div class="form-group row">
+                <label for="inputName">Tool name</label>
+                <input type="email" readonly class="form-control" id="inputName" name="inputName" placeholder=""
+                    value="{0}">
+            </div>
+            <div class="form-group row">
+                <label for="inputDesc">Tool description</label>
+                <input type="text" readonly class="form-control" id="inputDesc" name="inputDesc" placeholder="Enter name"
+                    value="{1}">
+            </div>
+            <div class="form-group row">
+                    <label for="inputPrice">Price for a tool per day</label>
+                    <input type="text" readonly class="form-control" id="inputPrice" name="inputPrice" placeholder="Enter name"
+                        value="{2}">
+                </div>
+            <div class="form-group row">
+                <label for="inputSelect">For how many days do you want to rent this tool?</label>
+                <select class="form-control" id="inputSelect" name="inputSelect">
+                    <option value="0.5">Half</option>
+                    <option selected value="1">One</option>
+                    <option value="1.5"> One and a half</option>
+                    <option value="2">Two</option>
+                    <option value="2.5">Two and a half</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="form-group row">
+                <label for="inputDate">Select start date</label>
+                <div class='input-group date' id='datepicker'>
+                    <input type='date' id="inputDate" name="inputDate" class="form-control" value="{3}"/>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-time"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="text-right align-bottom">
+                <input type="number" class="invisible" value="{4}" name="toolid", id="toolid">
+                <h3 name="finalPrice" id="finalPrice">&#163;{2}</h3>
+                <button type="submit" class="btn btn-primary" id="submitUserPanel">Confirm booking</button>
+            </div>
+        </form>
+    </div>    
+</main>

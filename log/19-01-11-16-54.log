@@ -1,0 +1,4 @@
+127.0.0.1 - - [11/Jan/2019 16:55:01] "GET /cgi-bin/rentedTools.py HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 16:55:01] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\rentedTools.py" ""
+127.0.0.1 - - [11/Jan/2019 16:55:01] b'Traceback (most recent call last):\r\n  File "C:\\Users\\barte\\OneDrive\\Pulpit\\Shared power\\new\\SharedPower\\cgi-bin\\rentedTools.py", line 13, in <module>\r\n    from .db.dbScripts import dbScripts\r\nModuleNotFoundError: No module named \'__main__.db\'; \'__main__\' is not a package\r\n'
+127.0.0.1 - - [11/Jan/2019 16:55:01] CGI script exit status 0x1

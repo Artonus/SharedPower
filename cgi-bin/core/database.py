@@ -6,10 +6,12 @@ import sqlite3
 import uuid
 from hashlib import blake2b, blake2s
 from sqlite3 import Error
+from datetime import datetime
+from datetime import timedelta
+
 
 
 class DB:
-    currUser = None
     @staticmethod
     def create_connection():    
         db_file = '{0}\db\{1}.db'.format(os.getcwd(), "sharedpower")
@@ -45,8 +47,29 @@ class DB:
         _hash = blake2b(key=_key.encode("utf-8"), digest_size=32)
         _hash.update(value.encode("utf-8"))
         return str(_hash.hexdigest())   
-    
-    
+    @staticmethod
+    def commitAndCloseConnection(conn):
+        conn.commit()
+        conn.close()
+        pass
+    @staticmethod
+    def getCurrUserData():
+        conn= DB.create_connection()
+        c = conn.cursor()
+        c.execute("select * from users where username=?", (DB.getCurrUser(),))
+        data = c.fetchall()[0]
+        conn.close()
+        return data
+    @staticmethod
+    def addBookedTool(form):        
+            conn = DB.create_connection()
+            c = conn.cursor()
+            user = DB.getCurrUserData()
+            c.execute("insert into invoices(userid, toolid, toolname, price, dateofrent) values (?, ?, ?, ?, ?)", (user[0], form["toolid"].value, form["inputName"].value, int(form["inputPrice"].value) * int(float(form["inputSelect"].value)), form["inputDate"].value))
+            enddate = datetime.strptime(form["inputDate"].value, '%Y-%m-%d') + timedelta(days=int(float(form["inputSelect"].value))) 
+            strdate = enddate.strftime('%Y-%m-%d')
+            c.execute("insert into booked_tools(userid, toolid, startdate, enddate) values(?, ?, ?, ?)", (user[0], form["toolid"].value, form["inputDate"].value, strdate))
+            DB.commitAndCloseConnection(conn)
     
     def __init__(self, name): # Set the database file and the data holders 
         self.__dataset = shelve.open('{0}/cgi-bin/db/{1}.db'.format(os.getcwd(), name))

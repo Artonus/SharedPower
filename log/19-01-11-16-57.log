@@ -1,0 +1,138 @@
+127.0.0.1 - - [11/Jan/2019 16:57:03] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:57:03] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:57:03] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:57:03] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:57:04] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:57:04] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:57:04] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:57:04] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:57:04] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:57:04] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:57:07] "POST /cgi-bin/home.py HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 16:57:07] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\home.py" ""
+127.0.0.1 - - [11/Jan/2019 16:57:07] CGI script exited OK
+127.0.0.1 - - [11/Jan/2019 16:57:07] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:57:07] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:57:07] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:57:07] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:57:07] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:57:07] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:57:07] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:57:07] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:57:07] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:57:07] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:57:10] "GET /cgi-bin/rentedTools.py HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 16:57:10] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\rentedTools.py" ""
+127.0.0.1 - - [11/Jan/2019 16:57:10] b'Traceback (most recent call last):\r\n  File "C:\\Users\\barte\\OneDrive\\Pulpit\\Shared power\\new\\SharedPower\\cgi-bin\\rentedTools.py", line 13, in <module>\r\n    from ..db.dbScripts import dbScripts\r\nValueError: attempted relative import beyond top-level package\r\n'
+127.0.0.1 - - [11/Jan/2019 16:57:10] CGI script exit status 0x1
+127.0.0.1 - - [11/Jan/2019 16:57:32] "GET /cgi-bin/rentedTools.py HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 16:57:32] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\rentedTools.py" ""
+127.0.0.1 - - [11/Jan/2019 16:57:32] b'Traceback (most recent call last):\r\n  File "C:\\Users\\barte\\OneDrive\\Pulpit\\Shared power\\new\\SharedPower\\cgi-bin\\rentedTools.py", line 13, in <module>\r\n    from .db.dbScripts import dbScripts\r\nModuleNotFoundError: No module named \'__main__.db\'; \'__main__\' is not a package\r\n'
+127.0.0.1 - - [11/Jan/2019 16:57:32] CGI script exit status 0x1
+127.0.0.1 - - [11/Jan/2019 16:59:54] "GET /cgi-bin/rentedTools.py HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 16:59:54] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\rentedTools.py" ""
+127.0.0.1 - - [11/Jan/2019 16:59:55] CGI script exited OK
+127.0.0.1 - - [11/Jan/2019 16:59:55] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:59:55] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:59:55] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:59:55] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:59:55] "GET /gui/img/favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 16:59:55] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:59:55] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:59:55] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:59:55] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 16:59:55] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 16:59:55] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:07] "GET /cgi-bin/rentedTools.py HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:00:07] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\rentedTools.py" ""
+127.0.0.1 - - [11/Jan/2019 17:00:07] CGI script exited OK
+127.0.0.1 - - [11/Jan/2019 17:00:07] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:07] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:07] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:07] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:07] "GET /gui/img/favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:00:07] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:07] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:07] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:07] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:07] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:07] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:23] "GET /cgi-bin/rentedTools.py HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:00:23] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\rentedTools.py" ""
+127.0.0.1 - - [11/Jan/2019 17:00:23] CGI script exited OK
+127.0.0.1 - - [11/Jan/2019 17:00:23] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:23] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:23] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:23] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:24] "GET /gui/img/favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:00:24] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:24] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:24] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:24] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:24] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:24] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:39] "GET /cgi-bin/rentedTools.py HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:00:39] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\rentedTools.py" ""
+127.0.0.1 - - [11/Jan/2019 17:00:40] CGI script exited OK
+127.0.0.1 - - [11/Jan/2019 17:00:40] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:40] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:40] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:40] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:40] "GET /gui/img/favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:00:40] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:40] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:40] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:40] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:00:40] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:00:40] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:02:15] "GET /cgi-bin/rentedTools.py HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:02:15] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\rentedTools.py" ""
+127.0.0.1 - - [11/Jan/2019 17:02:16] CGI script exited OK
+127.0.0.1 - - [11/Jan/2019 17:02:16] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:02:16] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:02:16] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:02:16] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:02:16] "GET /gui/img/favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:02:16] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:02:16] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:02:16] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:02:16] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:02:16] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:02:16] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:04:47] "GET /cgi-bin/rentedTools.py HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:04:47] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\rentedTools.py" ""
+127.0.0.1 - - [11/Jan/2019 17:04:47] CGI script exit status 0x1
+127.0.0.1 - - [11/Jan/2019 17:04:47] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:04:47] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:04:47] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:04:47] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:04:47] "GET /gui/img/favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:04:47] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:04:47] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:04:47] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:04:47] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:04:48] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:04:48] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:25:40] "GET /cgi-bin/rentedTools.py HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:25:40] command: C:\Users\barte\AppData\Local\Programs\Python\Python37\python.exe -u "C:\Users\barte\OneDrive\Pulpit\Shared power\new\SharedPower\cgi-bin\rentedTools.py" ""
+127.0.0.1 - - [11/Jan/2019 17:25:40] CGI script exit status 0x1
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/js/jquery-3.3.1.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/css/bootstrap-grid.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/css/bootstrap-reboot.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/css/dashboard.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/js/bootstrap.bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/js/dashboard.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jan/2019 17:25:41] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/js/bootstrap.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:25:41] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/js/bootstrap.bundle.js.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:25:41] "GET /gui/img/favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jan/2019 17:25:42] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:25:42] "GET /gui/css/bootstrap-grid.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:25:42] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:25:42] "GET /gui/css/bootstrap.css.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jan/2019 17:25:42] code 404, message File not found
+127.0.0.1 - - [11/Jan/2019 17:25:42] "GET /gui/css/bootstrap-reboot.css.map HTTP/1.1" 404 -
