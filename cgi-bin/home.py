@@ -7,7 +7,7 @@ import sys
 from sqlite3 import Error
 
 #sys.path.append('../')
-from classes.template import Template
+from core.template import Template
 from core.database import DB
 
 cgitb.enable()
@@ -18,9 +18,9 @@ def main():
     currUser = None
     t = Template()
     form = cgi.FieldStorage()
-        
+    # registering ar signing in a user
     if "inputUsername" in form and "inputPassword" in form:            
-        conn = DB.create_connection()
+        conn = DB.createConnection()
         hashedPass = DB.hash(form["inputPassword"].value)
         if conn != None:
             try:
@@ -35,20 +35,18 @@ def main():
             except Error as e:
                 print(e)
             pass    
-        if currUser is None:
-            # try:
-                c = conn.cursor()
-                c.execute("insert into users(username, password) values(?, ?)", (form["inputUsername"].value, hashedPass))
-                #conn.commit()
-                #userId = c.lastrowid
-                c.execute("select * from users where username=? and password=?", (form["inputUsername"].value, hashedPass))
-                rows = c.fetchall()
-                currUser = rows[0]
-                conn.commit()
-            # except Error as e:
-            #     print(e)
-                pass
+        if currUser is None:            
+            c = conn.cursor()
+            c.execute("insert into users(username, password) values(?, ?)", (form["inputUsername"].value, hashedPass))
+            
+            c.execute("select * from users where username=? and password=?", (form["inputUsername"].value, hashedPass))
+            rows = c.fetchall()
+            currUser = rows[0]
+            conn.commit()
+        
+            pass
         DB.setCurrUser(currUser)
+        # printing panel of tools to rent
         if conn != None:
             print('Content-type: text/html')
             print('')

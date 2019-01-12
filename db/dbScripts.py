@@ -1,5 +1,8 @@
+#
+# Class containing scripts to create tables in the database.
+# This class is not placed among the rest in the /cgi-bin catalog because cgi framework does not allow an access from outside 
+#
 class dbScripts():    
-    selectToolById = "select * from tools where id=?"
     @staticmethod
     def usersTableSql():
         return """CREATE TABLE IF NOT EXISTS users (
@@ -18,7 +21,7 @@ class dbScripts():
  toolname text NOT NULL,
  tooldesc text not null,
  imagename text not null,
- owner text not null,
+ ownerid integer not null,
  price integer not null,
  avilabile integer not null,
  dateavilabile text
@@ -41,5 +44,16 @@ class dbScripts():
  userid integer NOT NULL,
  toolid integer not null,
  startdate text not null,
- enddate text not null
+ enddate text not null,
+ returned integer default 0
+);"""
+    @staticmethod
+    def returned_toolsTableSql():
+        return """CREATE TABLE IF NOT EXISTS returned_tools(
+ id integer PRIMARY KEY,
+ ownerid integer not null,
+ userid integer NOT NULL,
+ toolid integer not null,
+ picname text not null,
+ condition text not null
 );"""

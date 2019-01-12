@@ -1,0 +1,37 @@
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+    <div class="pt-3 pb-2 mb-3 border-bottom justify-content-between flex-wrap align-items-center flex-md-nowrap">
+        <form enctype="multipart/form-data" method="POST" action="/cgi-bin/searchForTool.py">
+            <h3>To add a tool fill following fields and choose picture of it.</h3>
+            <div class="form-group row">
+                <label for="inputNewToolName">Tool name</label>
+                <input type="text" class="form-control" id="inputNewToolName" name="inputNewToolName" placeholder="Enter tool name">
+            </div>
+            <div class="form-group row">
+                <label for="inputNewToolDesc">Tool description</label>
+                <textarea class="form-control" rows="4" id="inputNewToolDesc" placeholder="Enter tool description" name="inputNewToolDesc"></textarea>
+            </div>
+            <div class="form-group row">
+                <label for="inputPrice">Tool price per day (price per half a day will be a half of full day price)</label>
+                <input type="number" class="form-control" id="inputPrice" name="inputPrice" placeholder="Enter price"
+                    value="">
+            </div>
+            <div class="form-group row">
+                <label for="inputFile">Please select the picture of tool</label>
+                <input type="file" class="form-control-file" id="inputFile" name="inputFile" accept="image/*"
+                    value="">
+            </div>
+            <div class="form-group row">
+                <label for="inputDate">Select date when tool will be avilabile</label>
+                <div class='input-group date' id='datepicker'>
+                    <input type='date' id="inputDate" name="inputDate" class="form-control" value=""/>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-time"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="text-right align-bottom">                
+                <button type="submit" class="btn btn-primary" id="submitAddTool">Add tool</button>
+            </div>
+        </form>
+    </div>
+</main>

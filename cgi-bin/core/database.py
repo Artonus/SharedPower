@@ -1,19 +1,22 @@
+#
+# This class contains functions to run database connection and data flow
+#
 import hashlib
 import json
 import os
 import shelve
+import shutil
 import sqlite3
 import uuid
+from datetime import datetime, timedelta
 from hashlib import blake2b, blake2s
 from sqlite3 import Error
-from datetime import datetime
-from datetime import timedelta
-
 
 
 class DB:
+    # establishing connection with database
     @staticmethod
-    def create_connection():    
+    def createConnection():    
         db_file = '{0}\db\{1}.db'.format(os.getcwd(), "sharedpower")
         try:
             conn = sqlite3.connect(db_file)
@@ -22,6 +25,7 @@ class DB:
             print(e)    
         return None
 
+    # setting current user to a file
     @staticmethod
     def setCurrUser(user): # pass whole user 
         fileread = open(os.getcwd() + "/cgi-bin/core/appsettings.json", 'r')
@@ -33,6 +37,7 @@ class DB:
         filewrite.write(json.dumps(jsn))
         filewrite.close()
         pass 
+    # getting current user from a file
     @staticmethod
     def getCurrUser():
         file = open(os.getcwd() + "/cgi-bin/core/appsettings.json", 'r')
@@ -41,97 +46,121 @@ class DB:
         file.close()
         return jsn["currUser"]
 
+    # function to hash passwords
     @staticmethod
     def hash(value, key="eb6ec15daf9546254f0809"): # Return a Hashed value of a value
         _key = hashlib.sha224(key.encode("utf-8")).hexdigest()
         _hash = blake2b(key=_key.encode("utf-8"), digest_size=32)
         _hash.update(value.encode("utf-8"))
-        return str(_hash.hexdigest())   
+        return str(_hash.hexdigest())
+    
+    # commiting changes to database and closing connection
     @staticmethod
     def commitAndCloseConnection(conn):
         conn.commit()
         conn.close()
         pass
+    
+    # geting data of currently logged user
     @staticmethod
     def getCurrUserData():
-        conn= DB.create_connection()
+        conn= DB.createConnection()
         c = conn.cursor()
         c.execute("select * from users where username=?", (DB.getCurrUser(),))
         data = c.fetchall()[0]
         conn.close()
         return data
+    
+    # adding values to database after user booked a tool
     @staticmethod
     def addBookedTool(form):        
-            conn = DB.create_connection()
-            c = conn.cursor()
-            user = DB.getCurrUserData()
-            c.execute("insert into invoices(userid, toolid, toolname, price, dateofrent) values (?, ?, ?, ?, ?)", (user[0], form["toolid"].value, form["inputName"].value, int(form["inputPrice"].value) * int(float(form["inputSelect"].value)), form["inputDate"].value))
-            enddate = datetime.strptime(form["inputDate"].value, '%Y-%m-%d') + timedelta(days=int(float(form["inputSelect"].value))) 
-            strdate = enddate.strftime('%Y-%m-%d')
-            c.execute("insert into booked_tools(userid, toolid, startdate, enddate) values(?, ?, ?, ?)", (user[0], form["toolid"].value, form["inputDate"].value, strdate))
-            DB.commitAndCloseConnection(conn)
+        conn = DB.createConnection()
+        c = conn.cursor()
+        user = DB.getCurrUserData()
+        
+        DB.addInvoiceRecord(form)        
+
+        if form.getvalue("inputDispatch", '').lower() in ['true', 'yes','t', '1', 'on', 'checked']:
+            DB.addInvoiceRecord(form, True)
+
+        enddate = datetime.strptime(form["inputDate"].value, '%Y-%m-%d') + timedelta(days=int(float(form["inputSelect"].value))) 
+        strdate = enddate.strftime('%Y-%m-%d')
+        c.execute("insert into booked_tools(userid, toolid, startdate, enddate) values(?, ?, ?, ?)", 
+        (user[0], form["toolid"].value, form["inputDate"].value, strdate))
+
+        DB.commitAndCloseConnection(conn)
     
-    def __init__(self, name): # Set the database file and the data holders 
-        self.__dataset = shelve.open('{0}/cgi-bin/db/{1}.db'.format(os.getcwd(), name))
-        self.__data = {}
-        self.__keys = []
-        self.__values = []
+    # adding invoice records depending on choosed options by user
+    @staticmethod
+    def addInvoiceRecord(form, dispatch=False, lateReturn=False, lateReturnFee=0):
+        conn = DB.createConnection()
+        c = conn.cursor()
+        user = DB.getCurrUserData()
+        if lateReturn:
+            c.execute("insert into invoices(userid, toolid, toolname, price, dateofrent) values (?, ?, ?, ?, ?)",
+            (user[0], form["toolid"].value, "Late return of tool fine", lateReturnFee, datetime.now().strftime('%Y-%m-%d')))
+            pass
+        if dispatch:
+            c.execute("insert into invoices(userid, toolid, toolname, price, dateofrent) values (?, ?, ?, ?, ?)",
+            (user[0], form["toolid"].value, "Dispatch of a tool", 10, datetime.now().strftime('%Y-%m-%d')))    
+        else:
+            c.execute("insert into invoices(userid, toolid, toolname, price, dateofrent) values (?, ?, ?, ?, ?)",
+             (user[0], form["toolid"].value, form["inputName"].value, int(form["inputPrice"].value) * int(float(form["inputSelect"].value)), form["inputDate"].value))
+            c.execute("insert into invoices(userid, toolid, toolname, price, dateofrent) values (?, ?, ?, ?, ?)",
+            (user[0], form["toolid"].value, "Insurance for a tool", 5, datetime.now().strftime('%Y-%m-%d')))
+        DB.commitAndCloseConnection(conn)
 
-    def load(self, name): # Load any database files into the data holder
-        self.__dataset = shelve.open('{0}/cgi-bin/db/{1}.db'.format(os.getcwd(), name))
+    # copying selected file by user to specified directory and returning file name
+    @staticmethod
+    def copyFileToDir(form, dirpath):
+        #shutil.copy2(filePath, dirpath)
+        if "inputFile" not in form: return
+        fileitem = form["inputFile"]        
+        if not fileitem.file: return
+        if fileitem.filename == "": return
+        outpath = os.path.join(dirpath, fileitem.filename)
 
-    def save(self): # Save the database file and clear the cache
-        self.__dataset.sync()
-        self.__dataset.close()
-
-    def uuid(self): # Return a UUID
-        return uuid.uuid4().hex    
-
-    def show(self): # Return all data stored in the database
-        return self.__dataset
-
-    # check if object already contains a key!
-    def add(self, key, object):  # Add new entries to the database
-        if self.listKeys(key) != None:  # prevent overriding existing key
-            return False
-        self.__dataset[key] = object 
-
-    def remove(self, key): # Remove an entry from the database
-        del self.__dataset[key]
-
-    def keys(self): # Return a List of all keys in the database
-        self.__keys = list(self.__dataset.keys())
-        return self.__keys
-
-    def count(self): # Return the number of entries in the database
-        return len(self.__dataset)
-
-    def check(self, key): # Return a check if an entry is in the database
-        return key in self.__dataset
-
-    def append(self, key, object): # Append new entries to the database
-        self.__data = self.__dataset[key]
-        self.__data.append(object)
-        self.__dataset[key] = self.__data
-
-    def update(self, key, object): # Update the value of an entry
-        self.__dataset[key] = object 
+        with open(outpath, 'wb') as fout:
+            shutil.copyfileobj(fileitem.file, fout, 100000)
+        return fileitem.filename        
     
-    def reform(self, key, keys, object): # Update the value of an entries dictionary value
-        self.__dataset[key][keys] = object
+    # changing values in database after user returned a tool
+    @staticmethod
+    def makeToolReturned(form):
+        imgName = DB.copyFileToDir(form, os.getcwd() + "/gui/returnedTools_img/")
+        conn = DB.createConnection()
+        c = conn.cursor()
+        today = datetime.now().strftime('%Y-%m-%d')
+        user = DB.getCurrUserData()
+        c.execute("select * from booked_tools where userid=? and ? >= startdate and returned=0 and toolid=?" , (user[0], today, form["toolid"].value))
+        toolToReturn = c.fetchall()[0]      
+        returnDate = datetime.strptime(toolToReturn[4], "%Y-%m-%d")
+        c.execute("select * from tools where id=?", (form["toolid"].value,))
+        tool = c.fetchall()[0]
+        pricePerDay = tool[5]
+        
+        # checking if user is not late with return if is then add fee for late return
+        if datetime.now() > returnDate:            
+            datediff = abs((today, returnDate).days)
+            priceToPay = datediff * pricePerDay
+            DB.addInvoiceRecord(form, False, True, priceToPay)
+            pass
+        c.execute("update booked_tools set returned=1 where userid=? and toolid=? and ? between startdate and enddate",
+         (user[0], form["toolid"].value, datetime.now().strftime('%Y-%m-%d')))
+        #add record to rented tools database
+        c.execute("insert into returned_tools(ownerid, userid, toolid, picname, condition) values(?, ?, ?, ?, ?)",
+         (tool[4],user[0], tool[0], imgName, form["inputCondition"].value))
+        DB.commitAndCloseConnection(conn)
+        pass
 
-    def listAll(self, key): # Return a dictionary's of all keys pairs of an entries dictionary
-        self.__data = dict(self.__dataset[key])
-        return self.__data
-
-    def listKeys(self, key): # Return a list of all keys in an entries dictionary
-        try:
-            if key in self.__dataset:
-                return dict(self.__dataset[key])
-        except Exception as ex:        
-            print("No such key in dataset", ex)
-
-    def listValues(self, key): # Return a list of all values in an entries dictionary
-        for keys in self.listKeys(key):
-            self.__values.append(self.__dataset[key][keys])
-        return self.__values
+    # adding new records to database after user adds a new tool
+    @staticmethod
+    def addNewTool(form):
+        img = DB.copyFileToDir(form, os.getcwd() + "/gui/img/")
+        conn = DB.createConnection()
+        c = conn.cursor()
+        user = DB.getCurrUserData()
+        c.execute("insert into tools(toolname, tooldesc, imagename, owner, price, avilabile, dateavilabile) values(?, ?, ?, ?, ?, ?, ?)",
+         (form["inputNewToolName"].value, form["inputNewToolDesc"].value, img, user[1], form["inputPrice"].value, 1, form["inputDate"].value))
+        DB.commitAndCloseConnection(conn)
+        pass

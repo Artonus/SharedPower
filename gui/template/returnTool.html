@@ -1,0 +1,36 @@
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+    <div class="pt-3 pb-2 mb-3 border-bottom justify-content-between flex-wrap align-items-center flex-md-nowrap">
+        <form enctype="multipart/form-data" method="POST" action="/cgi-bin/rentedTools.py">
+            <h3>There is only one small thing left, please confirm that you want to return a tool and add a picture of
+                it.</h3>
+            <div class="form-group row">
+                <label for="inputName">Tool name</label>
+                <input type="email" readonly class="form-control" id="inputName" name="inputName" placeholder="" value="{0}">
+            </div>
+            <div class="form-group row">
+                <label for="inputDesc">Tool description</label>
+                <input type="text" readonly class="form-control" id="inputDesc" name="inputDesc" placeholder="Enter name"
+                    value="{1}">
+            </div>
+            <div class="form-group row">
+                <label for="inputFile">Please select the picture of tool</label>
+                <input type="file" class="form-control-file" id="inputFile" name="inputFile" accept="image/*"
+                    value="">
+            </div>
+            <div class="form-group row">
+                <label for="inputCondition">Condition of a tool</label>
+                <textarea class="form-control" rows="4" id="inputCondition" placeholder="Enter tool condition note" name="inputCondition"></textarea>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="true" name="inputDispatch" id="inputDispatch">
+                <label class="form-check-label" for="inputDispatch">
+                    Arrange dispatch (&#163;10 charge will be added to your invoice)
+                </label>
+            </div>
+            <div class="text-right align-bottom">
+                <input type="number" class="invisible" value="{4}" name="toolid" id="toolid">
+                <button type="submit" class="btn btn-primary" id="submitReturnTool">Confirm return</button>
+            </div>
+        </form>
+    </div>
+</main>

@@ -2,21 +2,27 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-<script>    
+<script src="/gui/js/checkforms.js"></script>
+<script>
     $("#print").click(function (e) {
-        alert("Module not implemented!");
+        alert("Now imagine that invoice is being printed!");
     })
-
+    // disable F5 button to prevent resending the form by accident
     function disableF5(e) { if ((e.which || e.keyCode) == 116) e.preventDefault(); };    
-    $(document).bind("keydown", disableF5);    
+    $(document).bind("keydown", disableF5);
     $(document).on("keydown", disableF5);
-    
+
+    // updateing of value to pay while renting tool
     $("#inputSelect").change(function(){
-            var defPrice = $("#inputPrice").val();
-            var multip = parseFloat($("#inputSelect").val());            
+            let defPrice = $("#inputPrice").val();
+            let multip = parseFloat($("#inputSelect").val());            
             $("#finalPrice").html("&#163;" + (defPrice *  multip));
     });
+    // assigning functions to check forms
+    $("#submitAddTool").click(checkAddToolForm)
+    $("#submitUserPanel").click(checkUserPanelForm)
+    $("#submitReturnTool").click(returnToolFormCheck)
+    $("#submitConfirmBooking").click(bookToolFormCheck)
 </script>
 </body>
 

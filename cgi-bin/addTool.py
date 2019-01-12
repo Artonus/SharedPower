@@ -17,17 +17,14 @@ def main():
     currUser = DB.getCurrUser()
     conn = DB.createConnection()
     t = Template()
-    # printing page of booking a tool form
+    # printing add tool page
     if conn != None:
-        c = conn.cursor()
-        c.execute("select * from tools where id=?", (form["toolid"].value,))
-        tmp = c.fetchall()   
-        tool = tmp[0]
+        c = conn.cursor()        
         print('Content-type: text/html')
         print('')
         print(t.getTemplate('head').format(userName=currUser))
         print(t.getTemplate('sidebar'))
-        print(t.getTemplate('bookTool').format(tool[1], tool[2], tool[5], datetime.now().strftime("%Y-%m-%d"), form["toolid"].value))
+        print(t.getTemplate('addTool'))
         print(t.getTemplate('foot'))
         conn.close()
         pass
