@@ -160,7 +160,7 @@ class DB:
         conn = DB.createConnection()
         c = conn.cursor()
         user = DB.getCurrUserData()
-        c.execute("insert into tools(toolname, tooldesc, imagename, owner, price, avilabile, dateavilabile) values(?, ?, ?, ?, ?, ?, ?)",
-         (form["inputNewToolName"].value, form["inputNewToolDesc"].value, img, user[1], form["inputPrice"].value, 1, form["inputDate"].value))
+        c.execute("insert into tools(toolname, tooldesc, imagename, ownerid, price, avilabile, dateavilabile) values(?, ?, ?, ?, ?, ?, ?)",
+         (form["inputNewToolName"].value, form["inputNewToolDesc"].value, img, user[0], form["inputPrice"].value, 1, form["inputDate"].value))
         DB.commitAndCloseConnection(conn)
         pass
