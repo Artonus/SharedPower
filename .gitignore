@@ -1,4 +1,4 @@
 .vscode/
-gui/returnedTools_img/
 log/
 /db/sharedpower.db
+gui/returnedTools_img/*.jpg\n*.jpeg\n*.png\n*.gif\n
