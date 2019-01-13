@@ -1,3 +1,4 @@
 .vscode/
 gui/returnedTools_img/
 log/
+/db/sharedpower.db
