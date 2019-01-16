@@ -21,12 +21,20 @@ def main():
         c = conn.cursor()
         c.execute("select * from users where username=?", (currUser,))
         tmp = c.fetchall()        
-        currUserData = tmp[0]
+        currUserData = list(tmp[0])
         print('Content-type: text/html')
         print('')
 
         print(t.getTemplate('head').format(userName=currUser))
         print(t.getTemplate('sidebar'))
+        if not currUserData[3]:
+            currUserData[3] = ""
+        if not currUserData[4]:
+            currUserData[4] = ""
+        if not currUserData[5]:
+            currUserData[5] = ""
+        if not currUserData[6]:
+            currUserData[6] = ""
         print(t.getTemplate('userPanel').format(username=currUserData[1], email=currUserData[6], name=currUserData[3], surname=currUserData[4], adress=currUserData[5])) # filling templates with correct data
 
         print(t.getTemplate('toolStart'))

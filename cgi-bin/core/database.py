@@ -115,14 +115,14 @@ class DB:
     def copyFileToDir(form, dirpath):
         #shutil.copy2(filePath, dirpath)
         if "inputFile" not in form: return
-        fileitem = form["inputFile"]        
-        if not fileitem.file: return
-        if fileitem.filename == "": return
-        outpath = os.path.join(dirpath, fileitem.filename)
+        cpFile = form["inputFile"]  
+        if not cpFile.file: return
+        if cpFile.filename == "": return
+        outpath = os.path.join(dirpath, cpFile.filename)
 
         with open(outpath, 'wb') as fout:
-            shutil.copyfileobj(fileitem.file, fout, 100000)
-        return fileitem.filename        
+            shutil.copyfileobj(cpFile.file, fout, 100000)
+        return cpFile.filename        
     
     # changing values in database after user returned a tool
     @staticmethod
