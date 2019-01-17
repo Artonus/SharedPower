@@ -83,10 +83,10 @@ class DB:
         if form.getvalue("inputDispatch", '').lower() in ['true', 'yes','t', '1', 'on', 'checked']:
             DB.addInvoiceRecord(form, True)
 
-        enddate = datetime.strptime(form["inputDate"].value, '%Y-%m-%d') + timedelta(days=int(float(form["inputSelect"].value))) 
+        enddate = datetime.strptime(form.getvalue("inputDate"), '%Y-%m-%d') + timedelta(days=int(float(form["inputSelect"].value))) 
         strdate = enddate.strftime('%Y-%m-%d')
         c.execute("insert into booked_tools(userid, toolid, startdate, enddate) values(?, ?, ?, ?)", 
-        (user[0], form["toolid"].value, form["inputDate"].value, strdate))
+        (user[0], form["toolid"].value, form.getvalue("inputDate"), strdate))
 
         DB.commitAndCloseConnection(conn)
     
@@ -113,16 +113,21 @@ class DB:
     # copying selected file by user to specified directory and returning file name
     @staticmethod
     def copyFileToDir(form, dirpath):
-        #shutil.copy2(filePath, dirpath)
-        if "inputFile" not in form: return
-        cpFile = form["inputFile"]  
-        if not cpFile.file: return
-        if cpFile.filename == "": return
-        outpath = os.path.join(dirpath, cpFile.filename)
+        try:
+            #shutil.copy2(filePath, dirpath)
+            if "inputFile" not in form: return
+            cpFile = form["inputFile"]  
+            if not cpFile.file: return
+            if cpFile.filename == "": return
+            outpath = os.path.join(dirpath, cpFile.filename)
 
-        with open(outpath, 'wb') as fout:
-            shutil.copyfileobj(cpFile.file, fout, 100000)
-        return cpFile.filename        
+            with open(outpath, 'wb') as fout:
+                shutil.copyfileobj(cpFile.file, fout )
+            return cpFile.filename        
+        except EOFError as err:
+            print(err)
+            pass
+        
     
     # changing values in database after user returned a tool
     @staticmethod
@@ -132,7 +137,7 @@ class DB:
         c = conn.cursor()
         today = datetime.now().strftime('%Y-%m-%d')
         user = DB.getCurrUserData()
-        c.execute("select * from booked_tools where userid=? and ? >= startdate and returned=0 and toolid=?" , (user[0], today, form["toolid"].value))
+        c.execute("select * from booked_tools where userid=? and ? >= startdate and returned=0 and toolid=?" , (user[0], today, form.getvalue("toolid")))
         toolToReturn = c.fetchall()[0]      
         returnDate = datetime.strptime(toolToReturn[4], "%Y-%m-%d")
         c.execute("select * from tools where id=?", (form["toolid"].value,))
@@ -161,6 +166,6 @@ class DB:
         c = conn.cursor()
         user = DB.getCurrUserData()
         c.execute("insert into tools(toolname, tooldesc, imagename, ownerid, price, avilabile, dateavilabile) values(?, ?, ?, ?, ?, ?, ?)",
-         (form["inputNewToolName"].value, form["inputNewToolDesc"].value, img, user[0], form["inputPrice"].value, 1, form["inputDate"].value))
+         (form["inputNewToolName"].value, form["inputNewToolDesc"].value, img, user[0], form["inputPrice"].value, 1, form.getvalue("inputDate")))
         DB.commitAndCloseConnection(conn)
         pass
