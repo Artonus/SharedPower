@@ -32,7 +32,7 @@ def main():
         today = datetime.now().strftime('%Y-%m-%d')
         if conn is not None:
             c = conn.cursor()
-            # searcing for currently rented tools
+            # searching for currently rented tools
             c.execute("select * from booked_tools where userid=? and ? >= startdate and returned=0" , (currUser[0], today))
             result = c.fetchall()
             if len(result) == 0:

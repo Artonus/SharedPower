@@ -122,7 +122,7 @@ class DB:
             outpath = os.path.join(dirpath, cpFile.filename)
 
             with open(outpath, 'wb') as fout:
-                shutil.copyfileobj(cpFile.file, fout )
+                shutil.copyfileobj(cpFile.file, fout, 16*1024*1024)
             return cpFile.filename        
         except EOFError as err:
             print(err)
@@ -137,7 +137,7 @@ class DB:
         c = conn.cursor()
         today = datetime.now().strftime('%Y-%m-%d')
         user = DB.getCurrUserData()
-        c.execute("select * from booked_tools where userid=? and ? >= startdate and returned=0 and toolid=?" , (user[0], today, form.getvalue("toolid")))
+        c.execute("select * from booked_tools where userid=? and startdate <= ? and returned = 0 and toolid = ?" , (user[0], today, form.getvalue("toolid")))
         toolToReturn = c.fetchall()[0]      
         returnDate = datetime.strptime(toolToReturn[4], "%Y-%m-%d")
         c.execute("select * from tools where id=?", (form["toolid"].value,))
@@ -166,6 +166,6 @@ class DB:
         c = conn.cursor()
         user = DB.getCurrUserData()
         c.execute("insert into tools(toolname, tooldesc, imagename, ownerid, price, avilabile, dateavilabile) values(?, ?, ?, ?, ?, ?, ?)",
-         (form["inputNewToolName"].value, form["inputNewToolDesc"].value, img, user[0], form["inputPrice"].value, 1, form.getvalue("inputDate")))
+         (form["inputNewToolName"].value, form["inputNewToolDesc"].value, img, user[0], form["inputPrice"].value, 1, form["inputDate"].value))
         DB.commitAndCloseConnection(conn)
         pass
