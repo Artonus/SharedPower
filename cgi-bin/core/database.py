@@ -132,30 +132,35 @@ class DB:
     # changing values in database after user returned a tool
     @staticmethod
     def makeToolReturned(form):
-        imgName = DB.copyFileToDir(form, os.getcwd() + "/gui/returnedTools_img/")
-        conn = DB.createConnection()
-        c = conn.cursor()
-        today = datetime.now().strftime('%Y-%m-%d')
-        user = DB.getCurrUserData()
-        c.execute("select * from booked_tools where userid=? and startdate <= ? and returned = 0 and toolid = ?" , (user[0], today, form.getvalue("toolid")))
-        toolToReturn = c.fetchall()[0]      
-        returnDate = datetime.strptime(toolToReturn[4], "%Y-%m-%d")
-        c.execute("select * from tools where id=?", (form["toolid"].value,))
-        tool = c.fetchall()[0]
-        pricePerDay = tool[5]
-        
-        # checking if user is not late with return if is then add fee for late return
-        if datetime.now() > returnDate:            
-            datediff = abs((today, returnDate).days)
-            priceToPay = datediff * pricePerDay
-            DB.addInvoiceRecord(form, False, True, priceToPay)
+        try:
+            imgName = DB.copyFileToDir(form, os.getcwd() + "/gui/returnedTools_img/")
+            conn = DB.createConnection()
+            c = conn.cursor()
+            today = datetime.now().strftime('%Y-%m-%d')
+            user = DB.getCurrUserData()
+            c.execute("select * from booked_tools where userid=? and startdate <= ? and returned = 0 and toolid = ?" , (user[0], today, form.getvalue("toolid")))
+            toolToReturn = c.fetchall()[0]      
+            returnDate = datetime.strptime(toolToReturn[4], "%Y-%m-%d")
+            c.execute("select * from tools where id=?", (form["toolid"].value,))
+            tool = c.fetchall()[0]
+            pricePerDay = tool[5]
+            
+            # checking if user is not late with return if is then add fee for late return
+            if datetime.now() > returnDate:            
+                datediff = abs((today, returnDate).days)
+                priceToPay = datediff * pricePerDay
+                DB.addInvoiceRecord(form, False, True, priceToPay)
+                pass
+            c.execute("update booked_tools set returned=1 where userid=? and toolid=? and ? between startdate and enddate",
+            (user[0], form["toolid"].value, datetime.now().strftime('%Y-%m-%d')))
+            #add record to rented tools database
+            c.execute("insert into returned_tools(ownerid, userid, toolid, picname, condition) values(?, ?, ?, ?, ?)",
+            (tool[4],user[0], tool[0], imgName, form["inputCondition"].value))
+            DB.commitAndCloseConnection(conn)
             pass
-        c.execute("update booked_tools set returned=1 where userid=? and toolid=? and ? between startdate and enddate",
-         (user[0], form["toolid"].value, datetime.now().strftime('%Y-%m-%d')))
-        #add record to rented tools database
-        c.execute("insert into returned_tools(ownerid, userid, toolid, picname, condition) values(?, ?, ?, ?, ?)",
-         (tool[4],user[0], tool[0], imgName, form["inputCondition"].value))
-        DB.commitAndCloseConnection(conn)
+        except Error as err:
+            print(err)
+        
         pass
 
     # adding new records to database after user adds a new tool

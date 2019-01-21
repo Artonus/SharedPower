@@ -48,7 +48,7 @@ if __name__ == "__main__":
         DB.addBookedTool(form)
         pass
     # checking if a adding tool form was filled and calling database to make changes
-    if "inputNewToolName" in form and "inputNewToolDesc" in form:
+    if "inputNewToolName" in form and "inputNewToolDesc" in form and "inputDate" in form:
         DB.addNewTool(form)
         pass
     main()   
